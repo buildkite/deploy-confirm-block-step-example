@@ -11,7 +11,6 @@ if [[ $DAY_OF_WEEK == "2" ]]; then
 steps:
   - block: "Deploy :rocket:"
     prompt: "Hey, it's Friday... No one likes deploying on a Friday. But if you really need to, that's OK, but you gotta take responsibility! If it breaks, you gotta fix it!"
-    submit: "I've made up my mind"
     fields:
       - select: "Are you sure you want to deploy?"
         key: "confirmation"
