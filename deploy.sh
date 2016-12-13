@@ -2,7 +2,7 @@
 
 DAY_OF_WEEK=`date +%u`
 
-if [[ $DAY_OF_WEEK == "5" ]]; then
+if [[ $DAY_OF_WEEK == "3" ]]; then
   CONFIRMATION=$(buildkite-agent meta-data get confirmation || echo "")
 
   # The question hasn't been answered yet
