@@ -1,0 +1,5 @@
+name: "Deploy Confirmation Block Step"
+description: "An example Buildkite pipeline that uses dynamic steps to confirm deployments on Fridays"
+steps:
+  - command: "buildkite-agent pipeline upload"
+    label: ":pipeline:"
