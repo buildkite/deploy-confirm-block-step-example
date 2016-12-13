@@ -10,15 +10,16 @@ if [[ $DAY_OF_WEEK == "2" ]]; then
     buildkite-agent pipeline upload <<EOF
 steps:
   - block: "Deploy :rocket:"
-    prompt: "Hey, it's Friday... No one likes deploying on a Friday. But if you really need to, that's OK, but you gotta take responsibility"
+    prompt: "Hey, it's Friday... No one likes deploying on a Friday. But if you really need to, that's OK, but you gotta take responsibility! If it breaks, you gotta fix it!"
+    submit: "I've made up my mind"
     fields:
       - select: "Are you sure you want to deploy?"
         key: "confirmation"
         options:
           - label: "Yes, I'm sure. If something goes wrong, I'll fix it"
-            value: yes
+            value: "yes"
           - label: "Err, nah. I've changed my mind"
-            value: no
+            value: "no"
   - command: "$BUILDKITE_COMMAND"
 EOF
     exit 0
