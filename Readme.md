@@ -16,4 +16,4 @@ However if you respond with "Err, nah. I've changed my mind", it will still run 
 
 ## License
 
-See [License.md](License.md) (MIT)
+See [LICENCE](LICENCE) (MIT)
