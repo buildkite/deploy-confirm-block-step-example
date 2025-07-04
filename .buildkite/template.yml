@@ -1,5 +1,9 @@
 name: "Deploy Confirmation Block Step"
-description: "An example Buildkite pipeline that uses dynamic steps to confirm deployments on Fridays"
+description: "An example pipeline that uses a block step to confirm deployments on Fridays."
+emoji: ":calendar:"
+languages:
+  - "Bash"
+  - "YAML"
 steps:
-  - command: "buildkite-agent pipeline upload"
-    label: ":pipeline:"
+  - label: ":pipeline:"
+    command: "buildkite-agent pipeline upload"
