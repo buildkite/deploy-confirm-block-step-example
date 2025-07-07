@@ -1,6 +1,6 @@
 # Buildkite Deploy Confirmation Block Step Example
 
-[![Build status](https://badge.buildkite.com/50a1f7b69a06c7a30871816c2074f3358b67ecb29a8279fe1f.svg?branch=main)](https://buildkite.com/buildkite/deploy-confirm-block-step-example)
+[![Build status](https://badge.buildkite.com/50a1f7b69a06c7a30871816c2074f3358b67ecb29a8279fe1f.svg?branch=main)](https://buildkite.com/buildkite/deploy-confirm-block-step-example/builds/latest?branch=main)
 [![Add to Buildkite](https://img.shields.io/badge/Add%20to%20Buildkite-14CC80)](https://buildkite.com/new)
 
 This repository is an example [Buildkite](https://buildkite.com/) pipeline that shows how to use a [`block` step](https://buildkite.com/docs/pipelines/block-step) to confirm deployments - but only if the `date` command on the agent returns **Friday**.
