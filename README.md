@@ -45,4 +45,4 @@ Here's what the block step looks like:
 
 ## License
 
-See [LICENSE](LICENSE) (MIT)
+See [LICENSE.md](LICENSE.md) (MIT)
