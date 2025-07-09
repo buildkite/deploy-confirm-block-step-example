@@ -35,11 +35,11 @@ Here's what the block step looks like:
 
 #### ✅ Confirming
 
-<img src="images/yes.png" width="50%" height="50%" alt="Yes confirmation example" />
+<img src="images/yes.png" width="600" alt="Yes confirmation example" />
 
 #### ❌ Cancelling
 
-<img src="images/no.png" width="50%" height="50%" alt="No confirmation example" />
+<img src="images/no.png" width="600" alt="No confirmation example" />
 
 <!-- docs:end -->
 
