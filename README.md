@@ -7,6 +7,8 @@ This repository is an example [Buildkite](https://buildkite.com/) pipeline that 
 
 👉 **See this example in action:** [buildkite/deploy-confirm-block-step-example](https://buildkite.com/buildkite/deploy-confirm-block-step-example/builds/latest?branch=main)
 
+See the full [Getting Started Guide](https://buildkite.com/docs/guides/getting-started) for step-by-step instructions on how to get this running, or try it yourself:
+
 [![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
 <a href="https://buildkite.com/buildkite/deploy-confirm-block-step-example/builds/latest?branch=main">
@@ -35,11 +37,11 @@ Here's what the block step looks like:
 
 #### ✅ Confirming
 
-<img src="images/yes.png" width="50%" height="50%" alt="Yes confirmation example" />
+<img src="images/yes.png" width="600" alt="Yes confirmation example" />
 
 #### ❌ Cancelling
 
-<img src="images/no.png" width="50%" height="50%" alt="No confirmation example" />
+<img src="images/no.png" width="600" alt="No confirmation example" />
 
 <!-- docs:end -->
 
